@@ -1,5 +1,3 @@
-yo guys, this one's for macOS
-
 pipeline {
   agent any
   
@@ -7,7 +5,7 @@ pipeline {
     stage('Checkout') {
       steps {
         deleteDir() // Optional: Clear workspace
-        git branch: 'main', url: 'https://github.com/ZuhailiAminUOB/Simple_Calculator.git'
+        git branch: 'main', url: 'https://github.com/sohliwen2704/Simple_Calculator.git'
       } 
     }
     stage('Install Dependencies') {
